@@ -89,7 +89,7 @@ NEXT_PUBLIC_API_URL="http://localhost:3000"
 
 For issues, feature requests, or questions:
 - Open an Issue
-- Email: singhashirwad2003@gmail.com
+- Email: abhverma45@gmail.com
 
 ## License
 
