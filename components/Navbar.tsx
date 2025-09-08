@@ -71,7 +71,7 @@ export function Navbar() {
           <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
             <Link href="/" className="flex items-center space-x-2">
               <Home className="h-6 w-6 text-blue-600" />
-              <span className="text-xl font-semibold text-gray-800">Dream House</span>
+              <span className="text-xl font-semibold text-gray-800">The Villa</span>
             </Link>
           </motion.div>
 

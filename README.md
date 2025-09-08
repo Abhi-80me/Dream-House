@@ -1,6 +1,6 @@
-# Dream House - Property Marketplace
+# The Villa - Property Marketplace
 
-Dream House is a modern property marketplace platform that enables users to browse, buy, sell, and rent properties. The application features user authentication, property management, and messaging capabilities with a responsive UI built using Next.js and Tailwind CSS.
+The Villa is a modern property marketplace platform that enables users to browse, buy, sell, and rent properties. The application features user authentication, property management, and messaging capabilities with a responsive UI built using Next.js and Tailwind CSS.
 
 ![Screenshot](public/main.png)
 
@@ -15,18 +15,19 @@ Dream House is a modern property marketplace platform that enables users to brow
 
 ## Tech Stack
 
-| Category          | Technologies                          |
-|-------------------|---------------------------------------|
-| Framework         | Next.js (App Router)                  |
-| Database          | PostgreSQL with Prisma ORM            |
-| Authentication    | JWT with bcrypt hashing               |
-| Styling           | Tailwind CSS                          |
-| UI Components     | Lucide icons, Framer Motion           |
-| Deployment        | Docker and Docker Compose             |
+| Category       | Technologies                |
+| -------------- | --------------------------- |
+| Framework      | Next.js (App Router)        |
+| Database       | PostgreSQL with Prisma ORM  |
+| Authentication | JWT with bcrypt hashing     |
+| Styling        | Tailwind CSS                |
+| UI Components  | Lucide icons, Framer Motion |
+| Deployment     | Docker and Docker Compose   |
 
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (v18 or higher)
 - PostgreSQL database
 - Docker (optional for containerized deployment)
@@ -34,17 +35,20 @@ Dream House is a modern property marketplace platform that enables users to brow
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/yourusername/dream-house.git
 cd dream-house
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Configure environment:
+
 ```bash
 cp .env.example .env
 ```
@@ -52,16 +56,19 @@ cp .env.example .env
 Edit the `.env` file with your database credentials and JWT secret
 
 4. Run database migrations:
+
 ```bash
 npx prisma migrate dev
 ```
 
 5. Seed the database (optional):
+
 ```bash
 npx prisma db seed
 ```
 
 6. Start development server:
+
 ```bash
 npm run dev
 ```
@@ -85,11 +92,13 @@ DATABASE_URL="postgresql://user:password@localhost:5432/dreamhouse"
 JWT_SECRET="your-strong-secret-key-here"
 NEXT_PUBLIC_API_URL="http://localhost:3000"
 ```
+
 ## Support
 
 For issues, feature requests, or questions:
+
 - Open an Issue
-- Email: singhashirwad2003@gmail.com
+- Email: abhverma45@gmail.com
 
 ## License
 

@@ -103,7 +103,7 @@ export default function HomePage() {
           <div className="absolute top-0 left-0 w-full h-full bg-black/10 z-10"></div>
           <Image
             src="/1.png"
-            alt="Dream House"
+            alt="The Villa"
             fill
             className="object-cover"
             priority
@@ -118,7 +118,7 @@ export default function HomePage() {
             className="mb-4"
           >
             <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight mb-6">
-              DREAM HOUSE<sup className="text-xl">®</sup>
+              THE VILLA<sup className="text-xl">®</sup>
             </h1>
             <p className="text-2xl md:text-3xl font-light text-white mb-10">
               FIND YOUR DREAM HOME TODAY
@@ -188,7 +188,7 @@ export default function HomePage() {
             </h2>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-700">
-                AT DREAM HOUSE, WE BELIEVE A HOME IS MORE THAN A PLACE — IT'S A STORY WAITING TO UNFOLD. OUR VISION IS TO CONNECT YOU WITH SPACES THAT INSPIRE, COMFORT, AND REFLECT WHO YOU ARE. WITH CURATED PROPERTIES AND PERSONALIZED SERVICE, WE'RE HERE TO MAKE YOUR DREAM A REALITY.
+                AT THE VILLA, WE BELIEVE A HOME IS MORE THAN A PLACE — IT'S A STORY WAITING TO UNFOLD. OUR VISION IS TO CONNECT YOU WITH SPACES THAT INSPIRE, COMFORT, AND REFLECT WHO YOU ARE. WITH CURATED PROPERTIES AND PERSONALIZED SERVICE, WE'RE HERE TO MAKE YOUR DREAM A REALITY.
               </p>
             </div>
           </motion.div>
@@ -305,7 +305,7 @@ export default function HomePage() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                WHY CHOOSE DREAM HOUSE?
+                WHY CHOOSE THE VILLA?
               </h2>
               <p className="text-xl text-gray-700 mb-8">
                 EXCEPTIONAL SERVICE, UNMATCHED EXPERTISE.
@@ -343,7 +343,7 @@ export default function HomePage() {
                 OUR PROMISE TO YOU
               </h2>
               <p className="text-xl text-gray-700 mb-8">
-                DREAM HOUSE IS BUILT ON TRUST, INTEGRITY, AND A PASSION FOR HELPING YOU FIND HOME.
+                THE VILLA IS BUILT ON TRUST, INTEGRITY, AND A PASSION FOR HELPING YOU FIND HOME.
               </p>
               <p className="text-gray-700 mb-8">
                 OUR MISSION IS TO SIMPLIFY YOUR JOURNEY, OFFERING CLARITY AND CONFIDENCE AT EVERY STEP. WE'RE NOT JUST REALTORS—WE'RE STORYTELLERS, CREATING THE NEXT CHAPTER OF YOUR LIFE.
@@ -429,13 +429,13 @@ export default function HomePage() {
               {
                 name: "SARAH & MARK",
                 role: "FIRST-TIME BUYERS",
-                quote: "DREAM HOUSE FOUND US THE PERFECT HOME IN JUST WEEKS. THEIR CARE AND EXPERTISE MADE ALL THE DIFFERENCE.",
+                quote: "THE VILLA FOUND US THE PERFECT HOME IN JUST WEEKS. THEIR CARE AND EXPERTISE MADE ALL THE DIFFERENCE.",
                 rating: 5
               },
               {
                 name: "EMILY",
                 role: "TENANT",
-                quote: "RENTING WITH DREAM HOUSE WAS SEAMLESS. THEY TRULY LISTEN TO WHAT YOU NEED.",
+                quote: "RENTING WITH THE VILLA WAS SEAMLESS. THEY TRULY LISTEN TO WHAT YOU NEED.",
                 rating: 4
               },
               {
